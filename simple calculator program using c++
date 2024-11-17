@@ -1,0 +1,38 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int a,b;
+    cout<<"enter the value of A:"<<endl;
+    cin>>a;
+    
+    cout<<"enter the value of B:"<<endl;
+    cin>>b;
+    char op;
+    cout<<"enter the operator to be used here for operation-->>"<<endl;;
+    cin>>op;
+    switch(op)
+    {
+        case '+':
+        cout<<a+b<<endl;
+        break;
+        case '_':
+        cout<<a-b<<endl;
+        break;
+        case '*':
+        cout<<a*b<<endl;
+        break;
+        case '/':
+        cout<<a/b<<endl;
+        break;
+        case '%':
+        cout<<a%b<<endl;
+        break;
+       default:
+        cout<<"you have done error some where please check"<<endl;
+        break;
+    }
+    
+}
+    
